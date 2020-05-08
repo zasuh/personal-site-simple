@@ -1,20 +1,41 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{
+      border: '1px solid black',
+      padding: '120px',
+      boxShadow: '4px 7px 15px -7px rgba(0,0,0,0.61)',
+      background: '#698796'
+    }}>
+    <h1 style={{
+      fontSize: '66px'
+    }}>Žane Suhadolnik</h1>
+    <p style={{
+      textAlign: 'center'
+    }}>suhadolnik@protonmail.com</p>
+    <ul>
+      <li>
+        <a href="https://github.com/zasuh">GitHub</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/zasuh_">Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/zasuhadolnik/">LinkedIn</a>
+      </li>
+      <li>
+        <a href="https://letterboxd.com/znsh/">Letterboxd</a>
+      </li>
+      <li>
+        <a href="https://www.goodreads.com/user/show/87198642-ane-suhadolnik">Goodreads</a>
+      </li>
+    </ul>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

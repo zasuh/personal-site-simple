@@ -7,6 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #37474f;
 }
 article,
 aside,
@@ -619,4 +620,19 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+ul li a {
+  text-decoration: underline;
+  color: white;
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: orange;
 }
